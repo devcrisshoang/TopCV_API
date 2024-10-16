@@ -1,0 +1,6 @@
+@API_TopCvSystem_HostAddress = http://localhost:5146
+
+GET {{API_TopCvSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

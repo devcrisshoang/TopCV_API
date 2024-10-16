@@ -1,0 +1,691 @@
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.AssemblyReference.cache
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfoInputs.cache
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfo.cs
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.CoreCompileInputs.cache
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\appsettings.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.exe
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.deps.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.runtimeconfig.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.pdb
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Humanizer.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.API_TopCvSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.API_TopCvSystem.props
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_TopCvSystem.props
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_TopCvSystem.props
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\scopedcss\bundle\API_TopCvSystem.styles.css
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopC.63234A61.Up2Date
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\refint\API_TopCvSystem.dll
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
+C:\Users\criss\source\repos\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.AssemblyReference.cache
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfoInputs.cache
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfo.cs
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.CoreCompileInputs.cache
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cs
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\refint\API_TopCvSystem.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\appsettings.Development.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\appsettings.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.exe
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.deps.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.runtimeconfig.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Azure.Core.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Azure.Identity.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Humanizer.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.CodeDom.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.API_TopCvSystem.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.API_TopCvSystem.props
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_TopCvSystem.props
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_TopCvSystem.props
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\scopedcss\bundle\API_TopCvSystem.styles.css
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopC.63234A61.Up2Date
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
+E:\Project 1\API_TopCvSystem\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\appsettings.Development.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\appsettings.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.exe
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.deps.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.runtimeconfig.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Azure.Core.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Azure.Identity.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Humanizer.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.CodeDom.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.AssemblyReference.cache
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfoInputs.cache
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfo.cs
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.CoreCompileInputs.cache
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cs
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.sourcelink.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.API_TopCvSystem.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.API_TopCvSystem.props
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_TopCvSystem.props
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_TopCvSystem.props
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\scopedcss\bundle\API_TopCvSystem.styles.css
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopC.63234A61.Up2Date
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\refint\API_TopCvSystem.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Twilio.dll
+E:\Project 1\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\PhoneNumbers.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\appsettings.Development.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\appsettings.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.exe
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.deps.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.runtimeconfig.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Azure.Core.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Azure.Identity.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Humanizer.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\PhoneNumbers.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.CodeDom.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\Twilio.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.AssemblyReference.cache
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfoInputs.cache
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfo.cs
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.CoreCompileInputs.cache
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cs
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.sourcelink.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.API_TopCvSystem.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.API_TopCvSystem.props
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_TopCvSystem.props
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_TopCvSystem.props
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\scopedcss\bundle\API_TopCvSystem.styles.css
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopC.63234A61.Up2Date
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\refint\API_TopCvSystem.dll
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
+E:\Project 1\API\mobile_api_dotnet\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\appsettings.Development.json
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\appsettings.json
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.exe
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.deps.json
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.runtimeconfig.json
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Azure.Core.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Azure.Identity.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Humanizer.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\PhoneNumbers.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.CodeDom.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\Twilio.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.AssemblyReference.cache
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfoInputs.cache
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.AssemblyInfo.cs
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.csproj.CoreCompileInputs.cache
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cs
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.API_TopCvSystem.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.build.API_TopCvSystem.props
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_TopCvSystem.props
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_TopCvSystem.props
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\scopedcss\bundle\API_TopCvSystem.styles.css
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopC.63234A61.Up2Date
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\refint\API_TopCvSystem.dll
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
+E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll

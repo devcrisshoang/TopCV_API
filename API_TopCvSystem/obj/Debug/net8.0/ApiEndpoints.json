@@ -1,0 +1,1615 @@
+[
+  {
+    "ContainingType": "API_Mobile.Controllers.ApplicantController",
+    "Method": "GetAll",
+    "RelativePath": "api/Applicant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ApplicantController",
+    "Method": "Create",
+    "RelativePath": "api/Applicant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicantDto",
+        "Type": "TopCVSystemAPIdotnet.DTOs.ApplicantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ApplicantController",
+    "Method": "GetByID",
+    "RelativePath": "api/Applicant/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ApplicantController",
+    "Method": "Edit",
+    "RelativePath": "api/Applicant/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "applicantDto",
+        "Type": "TopCVSystemAPIdotnet.DTOs.ApplicantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ApplicantController",
+    "Method": "Remove",
+    "RelativePath": "api/Applicant/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ApplicantJobController",
+    "Method": "GetApplicantJobs",
+    "RelativePath": "api/ApplicantJob",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.ApplicantJob, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ApplicantJobController",
+    "Method": "PostApplicantJob",
+    "RelativePath": "api/ApplicantJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicantJob",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.ApplicantJob",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.ApplicantJob",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ApplicantJobController",
+    "Method": "GetApplicantJob",
+    "RelativePath": "api/ApplicantJob/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.ApplicantJob",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ApplicantJobController",
+    "Method": "PutApplicantJob",
+    "RelativePath": "api/ApplicantJob/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ApplicantJob",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.ApplicantJob",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ApplicantJobController",
+    "Method": "DeleteApplicantJob",
+    "RelativePath": "api/ApplicantJob/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "GetArticle",
+    "RelativePath": "api/Article",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Article, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "PostArticle",
+    "RelativePath": "api/Article",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "article",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Article",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Article",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "GetArticle",
+    "RelativePath": "api/Article/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Article",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "DeleteArticle",
+    "RelativePath": "api/Article/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "Edit",
+    "RelativePath": "api/Article/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "article",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Article",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.ArticleController",
+    "Method": "GetArticleByRecruiter",
+    "RelativePath": "api/Article/ByRecruiter/{recruiterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Article, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "GetAllCompany",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "GetByID",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "Edit",
+    "RelativePath": "api/Company/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyDto",
+        "Type": "API_TopCvSystem.DTO.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "Remove",
+    "RelativePath": "api/Company/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "GetCompanyByRecruiterId",
+    "RelativePath": "api/Company/recruiter/{recruiterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "CreateCompanyForRecruiter",
+    "RelativePath": "api/Company/recruiter/{recruiterId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyDto",
+        "Type": "API_TopCvSystem.DTO.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "GetCompanyInformationDetails",
+    "RelativePath": "api/CompanyInformationDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "PostCompanyInformationDetails",
+    "RelativePath": "api/CompanyInformationDetails/{companyId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyInformationDetails",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "GetCompanyInformationDetails",
+    "RelativePath": "api/CompanyInformationDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "DeleteCompanyInformationDetails",
+    "RelativePath": "api/CompanyInformationDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "Edit",
+    "RelativePath": "api/CompanyInformationDetails/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyInformation",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
+    "Method": "GetCompanyInformationDetailsByCompanyId",
+    "RelativePath": "api/CompanyInformationDetails/ByCompany/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "GetJob",
+    "RelativePath": "api/Job",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Job, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "PostJob",
+    "RelativePath": "api/Job",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Job",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Job",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "GetJob",
+    "RelativePath": "api/Job/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Job",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/Job/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "Edit",
+    "RelativePath": "api/Job/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "job",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Job",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.JobController",
+    "Method": "GetJobByRecruiter",
+    "RelativePath": "api/Job/ByRecruiter/{recruiterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Job, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "GetJobDetails",
+    "RelativePath": "api/JobDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.JobDetails, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "PostJobDetails",
+    "RelativePath": "api/JobDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobDetails",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.JobDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.JobDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "GetJobDetails",
+    "RelativePath": "api/JobDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.JobDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "DeleteJobDetails",
+    "RelativePath": "api/JobDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "Edit",
+    "RelativePath": "api/JobDetails/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jobDetails",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.JobDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.JobDetailsController",
+    "Method": "GetJobDetailsByJob",
+    "RelativePath": "api/JobDetails/ByJob/{jobId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.JobDetails, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Message",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Message, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "PostMessage",
+    "RelativePath": "api/Message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Message",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Message",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "DeleteAllMessages",
+    "RelativePath": "api/Message",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "GetMessage",
+    "RelativePath": "api/Message/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Message",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "PutMessage",
+    "RelativePath": "api/Message/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "message",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Message",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageController",
+    "Method": "DeleteMessage",
+    "RelativePath": "api/Message/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageNotificationController",
+    "Method": "GetMessageNotifications",
+    "RelativePath": "api/MessageNotification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.MessageNotification, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageNotificationController",
+    "Method": "PostMessageNotification",
+    "RelativePath": "api/MessageNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageNotification",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.MessageNotification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.MessageNotification",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageNotificationController",
+    "Method": "GetMessageNotification",
+    "RelativePath": "api/MessageNotification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.MessageNotification",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.MessageNotificationController",
+    "Method": "DeleteMessageNotification",
+    "RelativePath": "api/MessageNotification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.NotificationController",
+    "Method": "GetNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.Notification, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.NotificationController",
+    "Method": "PostNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Notification",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.NotificationController",
+    "Method": "GetNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Notification",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.NotificationController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.NotificationController",
+    "Method": "Edit",
+    "RelativePath": "api/Notification/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notification",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetAll",
+    "RelativePath": "api/Recruiter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "Create",
+    "RelativePath": "api/Recruiter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RecruiterDto",
+        "Type": "API_TopCvSystem.DTO.RecruiterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetByID",
+    "RelativePath": "api/Recruiter/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "Edit",
+    "RelativePath": "api/Recruiter/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "RecruiterDto",
+        "Type": "API_TopCvSystem.DTO.RecruiterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "Remove",
+    "RelativePath": "api/Recruiter/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "GetAllCompany",
+    "RelativePath": "api/Resume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "CreateResumeForApplicant",
+    "RelativePath": "api/Resume/{applicantID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicantID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "resumeDto",
+        "Type": "API_TopCvSystem.DTO.ResumeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "GetByID",
+    "RelativePath": "api/Resume/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "Edit",
+    "RelativePath": "api/Resume/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "resumeDto",
+        "Type": "API_TopCvSystem.DTO.ResumeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "Remove",
+    "RelativePath": "api/Resume/{ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.ResumeController",
+    "Method": "GetResumeByApplicantID",
+    "RelativePath": "api/Resume/GetResumeBy/{applicantID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicantID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "GetSortOfUser",
+    "RelativePath": "api/SortOfUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.SortOfUser, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "PostSortOfUser",
+    "RelativePath": "api/SortOfUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortOfUser",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.SortOfUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.SortOfUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "GetSortOfUser",
+    "RelativePath": "api/SortOfUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.SortOfUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "DeleteSortOfUser",
+    "RelativePath": "api/SortOfUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "EditApplicant",
+    "RelativePath": "api/SortOfUser/{ID}Applicant",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOfUser",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.SortOfUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.SortOfUserController",
+    "Method": "EditRecruiter",
+    "RelativePath": "api/SortOfUser/{ID}Recruiter",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOfUser",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.SortOfUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TopCVSystemAPIdotnet.Data.Entities.User, API_TopCvSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "PostUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "ChangeAvatar",
+    "RelativePath": "api/User/{id}/change-avatar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newAvatar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "ChangeBackground",
+    "RelativePath": "api/User/{id}/change-background",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newBackground",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/User/{id}/change-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "GetUsernames",
+    "RelativePath": "api/User/usernames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
