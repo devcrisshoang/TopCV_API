@@ -77,7 +77,7 @@ namespace TopCVSystemAPIdotnet.Controllers
                 return NotFound(); // 404 nếu không tìm thấy
             }
 
-            sort.Applicant = sortOfUser.Applicant;
+            sort.ID_Applicant = sortOfUser.ID_Applicant;
             
             _context.SortOfUser.Update(sort);
             await _context.SaveChangesAsync();
@@ -100,7 +100,7 @@ namespace TopCVSystemAPIdotnet.Controllers
             }
 
             
-            sort.Recruiter = sortOfUser.Recruiter;
+            sort.ID_Recruiter = sortOfUser.ID_Recruiter;
 
             _context.SortOfUser.Update(sort);
             await _context.SaveChangesAsync();

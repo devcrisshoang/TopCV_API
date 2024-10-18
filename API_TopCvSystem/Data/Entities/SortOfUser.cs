@@ -8,9 +8,8 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID_SortOfUser { get; set; }
-        public int Recruiter { get; set; } = 0;
-        public int Applicant { get; set; } = 0;
-        public int Admin { get; set; } = 0;
+        public int ID_Recruiter { get; set; } = 0;
+        public int ID_Applicant { get; set; } = 0;
         public int ID_User { get; set; }
     }
 }
