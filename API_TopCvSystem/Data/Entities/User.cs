@@ -12,5 +12,6 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Password { get; set; } = "";
         public int Image_Background { get; set; } = 0;
         public int Avatar {  get; set; } = 0;
+        public int UID { get; set; } = 0;
     }
 }
