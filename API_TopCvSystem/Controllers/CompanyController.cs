@@ -200,5 +200,28 @@ namespace API_Mobile.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+        [HttpDelete("all")]
+        public async Task<IActionResult> DeleteAll()
+        {
+            try
+            {
+                var companies = await _context.Company.ToListAsync(); // Lấy tất cả công ty
+
+                if (companies == null || companies.Count == 0)
+                {
+                    return NotFound("No companies found."); // Trả về 404 nếu không có công ty nào
+                }
+
+                _context.Company.RemoveRange(companies); // Xóa tất cả công ty
+                await _context.SaveChangesAsync(); // Lưu thay đổi
+
+                return NoContent(); // 204 No Content
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}"); // Trả về lỗi 500 nếu có lỗi xảy ra
+            }
+        }
+
     }
 }

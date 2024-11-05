@@ -122,6 +122,28 @@ namespace TopCVSystemAPIdotnet.Controllers
 
             return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
         }
+        [HttpPut("Image/{ID}")]
+        public async Task<IActionResult> EditImage(int ID, [FromBody] Article article)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+            }
+
+            var existingArticle = await _context.Article.FindAsync(ID);
+            if (existingArticle == null)
+            {
+                return NotFound(); // 404 nếu không tìm thấy
+            }
+
+            existingArticle.image = article.image;
+            
+
+            _context.Article.Update(existingArticle);
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
+        }
 
         // DELETE: api/Article/5
         [HttpDelete("{id}")]
@@ -144,5 +166,32 @@ namespace TopCVSystemAPIdotnet.Controllers
         {
             return _context.Article.Any(e => e.ID == id);
         }
+        // DELETE: api/Article/DeleteAll
+        [HttpDelete("DeleteAll")]
+        public async Task<IActionResult> DeleteAllArticles()
+        {
+            try
+            {
+                // Lấy tất cả bài viết từ cơ sở dữ liệu
+                var articles = await _context.Article.ToListAsync();
+
+                // Kiểm tra xem có bài viết nào không
+                if (articles.Count == 0)
+                {
+                    return NotFound("No articles found to delete."); // Trả về NotFound nếu không có bài viết
+                }
+
+                // Xóa tất cả bài viết
+                _context.Article.RemoveRange(articles);
+                await _context.SaveChangesAsync();
+
+                return NoContent(); // Trả về 204 No Content sau khi xóa thành công
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
     }
 }

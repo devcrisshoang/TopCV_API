@@ -98,8 +98,28 @@ namespace TopCVSystemAPIdotnet.Controllers
             return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
         }
 
+        // Cập nhật Company
+        [HttpPut("people{ID}")]
+        public async Task<IActionResult> EditPeople(int ID, [FromBody] JobDetails jobDetails)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+            }
 
-       
+            var existingJobDetails = await _context.JobDetail.FindAsync(ID);
+            if (existingJobDetails == null)
+            {
+                return NotFound(); // 404 nếu không tìm thấy
+            }
+
+            existingJobDetails.Number_Of_People = jobDetails.Number_Of_People;
+
+            _context.JobDetail.Update(existingJobDetails);
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
+        }
 
         // DELETE: api/JobDetails/5
         [HttpDelete("{id}")]

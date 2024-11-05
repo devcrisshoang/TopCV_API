@@ -12,5 +12,6 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Phone_Number { get; set; } = "";
         public int ID_Company { get; set; } = 0;
         public string Email_Address { get; set; } = "";
+        private int ID_User { get; set; } = 0;
     }
 }

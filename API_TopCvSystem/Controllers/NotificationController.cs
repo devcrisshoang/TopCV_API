@@ -39,6 +39,32 @@ namespace TopCVSystemAPIdotnet.Controllers
             return notification;
         }
 
+        // GET: api/Notification/User/5
+        [HttpGet("User/{userId}")]
+        public async Task<ActionResult<IEnumerable<Notification>>> GetNotificationByUserId(int userId)
+        {
+            // Kiểm tra xem người dùng với ID đã tồn tại không
+            var existingUser = await _context.User.FindAsync(userId);
+            if (existingUser == null)
+            {
+                return NotFound($"User with ID {userId} does not exist.");
+            }
+
+            // Truy vấn để lấy danh sách thông báo của người dùng
+            var notifications = await _context.Notification
+                .Where(n => n.ID_User == userId)
+                .ToListAsync();
+
+            if (notifications == null || !notifications.Any())
+            {
+                return NotFound($"No notifications found for User with ID {userId}.");
+            }
+
+            return Ok(notifications);
+        }
+
+
+
         // POST: api/Notification
         [HttpPost]
         public async Task<ActionResult<Notification>> PostNotification(Notification notification)

@@ -41,6 +41,54 @@ namespace TopCVSystemAPIdotnet.Controllers
             return message;
         }
 
+        // GET: api/Message/GetChatPartners/{id}
+        [HttpGet("GetChatPartners/{id}")]
+        public async Task<ActionResult<IEnumerable<User>>> GetChatPartners(int id)
+        {
+            // Lấy tất cả các tin nhắn mà người dùng có ID là sender hoặc receiver
+            var messages = await _context.Message
+                .Where(m => m.Sender_ID == id || m.Receiver_ID == id)
+                .ToListAsync();
+
+            if (messages == null || !messages.Any())
+            {
+                return NotFound("No messages found for this user.");
+            }
+
+            // Lấy danh sách các đối tác nhắn tin (người không phải là chính người dùng đó)
+            var chatPartnerIds = messages
+                .Select(m => m.Sender_ID == id ? m.Receiver_ID : m.Sender_ID)
+                .Distinct()
+                .ToList();
+
+            // Lấy thông tin chi tiết của những người dùng này từ bảng User
+            var chatPartners = await _context.User
+                .Where(u => chatPartnerIds.Contains(u.ID))
+                .ToListAsync();
+
+            return Ok(chatPartners);
+        }
+
+        // GET: api/Message/GetMessagesBetweenUsers/9/otherUserId
+        [HttpGet("GetMessagesBetweenUsers/{userId1}/{userId2}")]
+        public async Task<ActionResult<IEnumerable<Message>>> GetMessagesBetweenUsers(int userId1, int userId2)
+        {
+            // Lấy tất cả các tin nhắn mà userId1 là người gửi hoặc người nhận và userId2 là đối tác
+            var messages = await _context.Message
+                .Where(m => (m.Sender_ID == userId1 && m.Receiver_ID == userId2) ||
+                            (m.Sender_ID == userId2 && m.Receiver_ID == userId1))
+                .ToListAsync();
+
+            if (messages == null || !messages.Any())
+            {
+                return NotFound("No messages found between these users.");
+            }
+
+            return Ok(messages);
+        }
+
+
+
         // POST: api/Message
         [HttpPost]
         public async Task<ActionResult<Message>> PostMessage(Message message)

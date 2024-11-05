@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241025001534_tt")]
+    partial class tt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,9 +40,6 @@ namespace API_TopCvSystem.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ID_User")
-                        .HasColumnType("int");
 
                     b.Property<string>("Job_Desire")
                         .IsRequired()
@@ -79,10 +79,6 @@ namespace API_TopCvSystem.Migrations
                     b.Property<int>("ID_Resume")
                         .HasColumnType("int");
 
-                    b.Property<string>("Time")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("ID");
 
                     b.ToTable("ApplicantJob");
@@ -109,10 +105,6 @@ namespace API_TopCvSystem.Migrations
 
                     b.Property<int>("ID_Recruiter")
                         .HasColumnType("int");
-
-                    b.Property<string>("image")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
@@ -195,25 +187,13 @@ namespace API_TopCvSystem.Migrations
                     b.Property<bool>("Application_Status")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Company_Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("Create_Time")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ID_Recruiter")
                         .HasColumnType("int");
 
-                    b.Property<string>("Image_Id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Job_Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Salary")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -250,10 +230,6 @@ namespace API_TopCvSystem.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Job_Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Number_Of_People")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -431,6 +407,28 @@ namespace API_TopCvSystem.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Resume");
+                });
+
+            modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.SortOfUser", b =>
+                {
+                    b.Property<int>("ID_SortOfUser")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_SortOfUser"));
+
+                    b.Property<int>("ID_Applicant")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ID_Recruiter")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ID_User")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID_SortOfUser");
+
+                    b.ToTable("SortOfUser");
                 });
 
             modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.User", b =>

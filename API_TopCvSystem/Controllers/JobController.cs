@@ -84,7 +84,30 @@ namespace API_TopCvSystem.Controllers
             work.Job_Name = job.Job_Name;
             work.Working_Experience_Require = job.Working_Experience_Require;
             work.Working_Address = job.Working_Address;
+            work.ID_Recruiter = job.ID_Recruiter;
 
+            _context.Job.Update(work);
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
+        }
+        // Cập nhật Company
+        [HttpPut("Image/{ID}")]
+        public async Task<IActionResult> EditImgeId(int ID, [FromBody] Job job)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+            }
+
+            var work = await _context.Job.FindAsync(ID);
+            if (work == null)
+            {
+                return NotFound(); // 404 nếu không tìm thấy
+            }
+
+            work.Image_Id = job.Image_Id;
+            
             _context.Job.Update(work);
             await _context.SaveChangesAsync();
 
@@ -133,5 +156,29 @@ namespace API_TopCvSystem.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+        // DELETE: api/Job/DeleteAll
+        [HttpDelete("DeleteAll")]
+        public async Task<IActionResult> DeleteAllJobs()
+        {
+            try
+            {
+                var jobs = await _context.Job.ToListAsync();
+
+                if (jobs.Count == 0)
+                {
+                    return NotFound("No jobs found to delete.");
+                }
+
+                _context.Job.RemoveRange(jobs);
+                await _context.SaveChangesAsync();
+
+                return NoContent(); // Trả về 204 No Content sau khi xóa thành công
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
     }
 }

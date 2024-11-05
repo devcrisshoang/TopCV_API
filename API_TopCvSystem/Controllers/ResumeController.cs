@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TopCVSystemAPIdotnet.Data;
 using TopCVSystemAPIdotnet.Data.Entities;
-using TopCVSystemAPIdotnet.DTOs;
-using TopCVSystemAPIdotnet.Mappers;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace API_Mobile.Controllers
@@ -20,26 +18,22 @@ namespace API_Mobile.Controllers
         {
             _context = context;
         }
+
         [HttpGet]
-        public async Task<IActionResult> GetAllCompany()
+        public async Task<IActionResult> GetAllResumes()
         {
             try
             {
-                // Lấy tất cả các Company từ database
-                var resume = await _context.Resume.ToListAsync();
-
-                // Kiểm tra nếu danh sách rỗng
-                if (resume == null || resume.Count == 0)
+                var resumes = await _context.Resume.ToListAsync();
+                if (resumes == null || resumes.Count == 0)
                 {
-                    return NotFound("No resume found."); // Trả về 404 nếu không có công ty nào
+                    return NotFound("No resumes found.");
                 }
 
-                // Trả về danh sách các Company
-                return Ok(resume);
+                return Ok(resumes);
             }
             catch (Exception ex)
             {
-                // Xử lý ngoại lệ và trả về mã lỗi 500
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -49,30 +43,24 @@ namespace API_Mobile.Controllers
         {
             try
             {
-                // Tìm danh sách Resume dựa trên ApplicantID
                 var resumes = await _context.Resume
                     .Where(r => r.ID_Applicant == applicantID)
                     .ToListAsync();
 
-                // Kiểm tra nếu không tìm thấy bất kỳ Resume nào
                 if (resumes == null || !resumes.Any())
                 {
                     return NotFound($"No resumes found for Applicant with ID {applicantID}.");
                 }
 
-                // Trả về danh sách Resume
                 return Ok(resumes);
             }
             catch (Exception ex)
             {
-                // Trả về mã lỗi 500 nếu có lỗi
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-
-
-        [HttpGet("{ID}")]
+        [HttpGet("GetResumeIdBy/{ID}")]
         public async Task<IActionResult> GetByID(int ID)
         {
             try
@@ -80,10 +68,10 @@ namespace API_Mobile.Controllers
                 var resume = await _context.Resume.FindAsync(ID);
                 if (resume == null)
                 {
-                    return NotFound(); // 404 nếu không tìm thấy
+                    return NotFound();
                 }
 
-                return Ok(resume); // Trả về dữ liệu công ty
+                return Ok(resume);
             }
             catch (Exception ex)
             {
@@ -91,80 +79,67 @@ namespace API_Mobile.Controllers
             }
         }
 
-
-        [HttpPost("{applicantID}")]
-        public async Task<IActionResult> CreateResumeForApplicant(int applicantID, [FromBody] ResumeDto resumeDto)
+        [HttpPost]
+        public async Task<IActionResult> CreateResume([FromBody] Resume resume)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // 400 if the data is invalid
+                return BadRequest(ModelState);
             }
 
             try
             {
-                // Create a new resume entity based on the input resumeDto
-                var newResume = new Resume
+                // Kiểm tra nếu ID_Applicant tồn tại trong bảng Applicant
+                var applicant = await _context.Applicant.FindAsync(resume.ID_Applicant);
+                if (applicant == null)
                 {
-                    Applicant_Name = resumeDto.Applicant_Name,
-                    Email = resumeDto.Email,
-                    Phone_Number = resumeDto.Phone_Number,
-                    Education = resumeDto.Education,
-                    Skills = resumeDto.Skills,
-                    Certificate = resumeDto.Certificate,
-                    Job_Applying = resumeDto.Job_Applying,
-                    Introduction = resumeDto.Introduction,
-                    Image = resumeDto.Image,
-                    ID_Applicant = applicantID // Assign the passed ApplicantID
-                };
+                    return BadRequest($"Applicant with ID {resume.ID_Applicant} does not exist.");
+                }
 
-                // Add the new resume to the database
-                _context.Resume.Add(newResume);
-                await _context.SaveChangesAsync();  // Save to get the generated ID
+                // Thêm resume mới vào database
+                _context.Resume.Add(resume);
+                await _context.SaveChangesAsync(); 
 
-                // Return the created resume with the generated ID
-                return CreatedAtAction(nameof(GetByID), new { ID = newResume.ID }, newResume);
+                return CreatedAtAction(nameof(GetByID), new { ID = resume.ID }, resume);
             }
             catch (Exception ex)
             {
-                // Handle the exception and return a 500 error
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-
-
-        // Cập nhật Company
         [HttpPut("{ID}")]
-        public async Task<IActionResult> Edit(int ID, [FromBody] ResumeDto resumeDto)
+        public async Task<IActionResult> Edit(int ID, [FromBody] Resume resume)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+                return BadRequest(ModelState);
             }
 
-            var resume = await _context.Resume.FindAsync(ID);
-            if (resume == null)
+            var existingResume = await _context.Resume.FindAsync(ID);
+            if (existingResume == null)
             {
-                return NotFound(); // 404 nếu không tìm thấy
+                return NotFound();
             }
 
-            resume.Applicant_Name = resumeDto.Applicant_Name;
-            resume.Email = resumeDto.Email;
-            resume.Phone_Number = resumeDto.Phone_Number;
-            resume.Education = resumeDto.Education;
-            resume.Skills = resumeDto.Skills;
-            resume.Certificate = resumeDto.Certificate;
-            resume.Job_Applying = resumeDto.Job_Applying;
-            resume.Introduction = resumeDto.Introduction;
-            resume.Image = resumeDto.Image;
+            // Cập nhật thông tin resume
+            existingResume.Applicant_Name = resume.Applicant_Name;
+            existingResume.Email = resume.Email;
+            existingResume.Phone_Number = resume.Phone_Number;
+            existingResume.Education = resume.Education;
+            existingResume.Skills = resume.Skills;
+            existingResume.Certificate = resume.Certificate;
+            existingResume.Job_Applying = resume.Job_Applying;
+            existingResume.Introduction = resume.Introduction;
+            existingResume.Image = resume.Image;
+            existingResume.Experience = resume.Experience;
 
-            _context.Resume.Update(resume);
+            _context.Resume.Update(existingResume);
             await _context.SaveChangesAsync();
 
-            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
+            return NoContent();
         }
 
-        // Xóa Company theo ID
         [HttpDelete("{ID}")]
         public async Task<IActionResult> Remove(int ID)
         {
@@ -173,17 +148,43 @@ namespace API_Mobile.Controllers
                 var resume = await _context.Resume.FindAsync(ID);
                 if (resume == null)
                 {
-                    return NotFound(); // 404 nếu không tìm thấy
+                    return NotFound();
                 }
 
                 _context.Resume.Remove(resume);
                 await _context.SaveChangesAsync();
-                return NoContent(); // 204 No Content
+                return NoContent();
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+        [HttpDelete("DeleteAll")]
+        public async Task<IActionResult> DeleteAllResumes()
+        {
+            try
+            {
+                // Lấy tất cả Resume
+                var resumes = await _context.Resume.ToListAsync();
+
+                if (resumes == null || !resumes.Any())
+                {
+                    return NotFound("No resumes found to delete.");
+                }
+
+                // Xóa tất cả Resume
+                _context.Resume.RemoveRange(resumes);
+                await _context.SaveChangesAsync();
+
+                return NoContent(); // Trả về HTTP 204 No Content
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
     }
 }
