@@ -11,6 +11,7 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public int ID_Job { get; set; } = 0;
         public int ID_Appicant { get; set; } = 0;
         public int ID_Resume { get; set; } = 0;
+        public bool isAccepted { get; set; } = false;
         public string Time { get; set; } = "";
     }
 }
