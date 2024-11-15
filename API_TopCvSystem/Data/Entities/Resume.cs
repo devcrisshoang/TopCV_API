@@ -19,6 +19,6 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Image { get; set; } = "";
         public string Experience { get; set; } = "";
         public int ID_Applicant { get; set; } = 0;
-        public int ID_Applicant_Job { get; set; } = 0;
+        public string File_Path { get; set; } = "";
     }
 }

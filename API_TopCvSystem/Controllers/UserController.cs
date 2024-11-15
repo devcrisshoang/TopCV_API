@@ -54,64 +54,6 @@ namespace TopCVSystemAPIdotnet.Controllers
             return CreatedAtAction(nameof(GetUser), new { id = user.ID }, user);
         }
 
-        // PUT: api/User/{id}/change-password
-        [HttpPut("{id}/change-password")]
-        public async Task<IActionResult> ChangePassword(int id, [FromBody] string newPassword)
-        {
-            var user = await _context.User.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            if (string.IsNullOrEmpty(newPassword))
-            {
-                return BadRequest("Password cannot be empty.");
-            }
-
-            user.Password = newPassword;
-
-            _context.Entry(user).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        // PUT: api/User/{id}/change-background
-        [HttpPut("{id}/change-background")]
-        public async Task<IActionResult> ChangeBackground(int id, [FromBody] int newBackground)
-        {
-            var user = await _context.User.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            user.Image_Background = newBackground;
-
-            _context.Entry(user).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        // PUT: api/User/{id}/change-avatar
-        [HttpPut("{id}/change-avatar")]
-        public async Task<IActionResult> ChangeAvatar(int id, [FromBody] int newAvatar)
-        {
-            var user = await _context.User.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            user.Avatar = newAvatar;
-
-            _context.Entry(user).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
 
         // Phương thức mới để lấy tất cả tên đăng nhập của người dùng
         // GET: api/User/usernames
@@ -128,6 +70,33 @@ namespace TopCVSystemAPIdotnet.Controllers
         private bool UserExists(int id)
         {
             return _context.User.Any(e => e.ID == id);
+        }
+
+        // Cập nhật Company
+        [HttpPut("{ID}")]
+        public async Task<IActionResult> Edit(int ID, [FromBody] User user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+            }
+
+            var people = await _context.User.FindAsync(ID);
+            if (people == null)
+            {
+                return NotFound(); // 404 nếu không tìm thấy
+            }
+
+            people.Avatar = user.Avatar;
+            people.Image_Background = user.Image_Background;
+            people.Username = user.Username;
+            people.Password = user.Password;
+            people.UID = user.UID;
+
+            _context.User.Update(people);
+            await _context.SaveChangesAsync();
+
+            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
         }
     }
 }

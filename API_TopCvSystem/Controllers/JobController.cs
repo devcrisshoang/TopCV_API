@@ -2,9 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using TopCVSystemAPIdotnet.Data;
 using TopCVSystemAPIdotnet.Data.Entities;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using System;
 
 namespace API_TopCvSystem.Controllers
 {
@@ -26,7 +23,6 @@ namespace API_TopCvSystem.Controllers
             return await _context.Job.ToListAsync();
         }
 
-        // GET: api/Job/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Job>> GetJob(int id)
         {
@@ -179,6 +175,5 @@ namespace API_TopCvSystem.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-
     }
 }

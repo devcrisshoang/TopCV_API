@@ -14,6 +14,5 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Field { get; set; } = "";
         public string Image { get; set; } = "";
         public bool Green_Badge { get; set; } = false;
-
     }
 }

@@ -15,5 +15,6 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Working_Location_Desire { get; set; } = "";
         public string Working_Experience { get; set; } = "";
         public int ID_User { get; set; } = 0;
+        public Boolean Is_Registered { get; set; } = false;
     }
 }

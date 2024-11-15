@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241108205743_hihi")]
+    partial class hihi
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +43,6 @@ namespace API_TopCvSystem.Migrations
 
                     b.Property<int>("ID_User")
                         .HasColumnType("int");
-
-                    b.Property<bool>("Is_Registered")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Job_Desire")
                         .IsRequired()
@@ -219,8 +219,9 @@ namespace API_TopCvSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Salary")
-                        .HasColumnType("int");
+                    b.Property<string>("Salary")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Working_Address")
                         .IsRequired()
@@ -462,19 +463,11 @@ namespace API_TopCvSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<string>("Avatar")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Avatar")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Image_Background")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsApplicant")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsRecruiter")
-                        .HasColumnType("bit");
+                    b.Property<int>("Image_Background")
+                        .HasColumnType("int");
 
                     b.Property<string>("Password")
                         .IsRequired()

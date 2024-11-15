@@ -9,7 +9,7 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         public string Content { get; set; } = "";
-        public DateTime Time { get; set; } = DateTime.Now;
+        public string Time { get; set; } = "";
         public int ID_User { get; set; } = 0;
     }
 

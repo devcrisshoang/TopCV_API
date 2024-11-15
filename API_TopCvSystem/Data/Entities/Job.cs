@@ -13,7 +13,8 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public string Company_Name { get; set; } = "";
         public string Working_Experience_Require { get; set; } = "";
         public string Working_Address { get; set; } = "";
-        public string Salary { get; set; } = "";
+        public int Salary { get; set; } = 0;
+        public float rate { get; set; } = 0;
         public DateTime Create_Time { get; set; } = DateTime.Now;
         public DateTime Application_Date { get; set; } = DateTime.Now;
         public Boolean Application_Status { get; set; } = false;

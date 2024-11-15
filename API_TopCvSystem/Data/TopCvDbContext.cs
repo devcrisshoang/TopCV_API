@@ -8,7 +8,6 @@ namespace TopCVSystemAPIdotnet.Data
     {
         public TopCvDbContext(DbContextOptions<TopCvDbContext> options) : base(options) { }
         public DbSet<User> User { get; set; }
-        
         public DbSet<Article> Article { get; set; }
         public DbSet<Message> Message { get; set; }
         public DbSet<Job> Job { get; set; }

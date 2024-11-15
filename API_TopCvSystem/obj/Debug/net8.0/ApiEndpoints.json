@@ -1619,62 +1619,20 @@
   },
   {
     "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
-    "Method": "ChangeAvatar",
-    "RelativePath": "api/User/{id}/change-avatar",
+    "Method": "Edit",
+    "RelativePath": "api/User/{ID}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "ID",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "newAvatar",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
-    "Method": "ChangeBackground",
-    "RelativePath": "api/User/{id}/change-background",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "newBackground",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
-    "Method": "ChangePassword",
-    "RelativePath": "api/User/{id}/change-password",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "newPassword",
-        "Type": "System.String",
+        "Name": "user",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
         "IsRequired": true
       }
     ],
