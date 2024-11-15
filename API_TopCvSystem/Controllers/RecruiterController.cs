@@ -1,9 +1,7 @@
-﻿using API_TopCvSystem.DTO;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TopCVSystemAPIdotnet.Data;
 using TopCVSystemAPIdotnet.Data.Entities;
-using TopCVSystemAPIdotnet.Data.Mappers;
 
 namespace API_Mobile.Controllers
 {
@@ -18,30 +16,26 @@ namespace API_Mobile.Controllers
             _context = context;
         }
 
+        // Lấy tất cả Recruiter
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             try
             {
-                // Lấy tất cả các Recruiter từ database
                 var recruiters = await _context.Recruiter.ToListAsync();
 
-                // Kiểm tra nếu danh sách Recruiter rỗng
                 if (recruiters == null || recruiters.Count == 0)
                 {
-                    return NotFound("No recruiters found."); // Trả về 404 nếu không có dữ liệu
+                    return NotFound("No recruiters found.");
                 }
 
-                // Trả về danh sách Recruiter
-                return Ok(recruiters);
+                return Ok(recruiters); // Trả về danh sách trực tiếp
             }
             catch (Exception ex)
             {
-                // Xử lý lỗi và trả về lỗi 500
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-
 
         // Lấy Recruiter theo ID
         [HttpGet("{ID}")]
@@ -49,13 +43,13 @@ namespace API_Mobile.Controllers
         {
             try
             {
-                var recruiter = await _context.Recruiter.FindAsync(ID); // Thay đổi từ _context.Recruiter thành _context.Recruiter
+                var recruiter = await _context.Recruiter.FindAsync(ID);
                 if (recruiter == null)
                 {
-                    return NotFound(); // 404
+                    return NotFound();
                 }
-                var RecruiterDto = RecruiterMapper.ToDto(recruiter);
-                return Ok(RecruiterDto);
+
+                return Ok(recruiter); // Trả về trực tiếp đối tượng Recruiter
             }
             catch
             {
@@ -65,49 +59,58 @@ namespace API_Mobile.Controllers
 
         // Tạo mới Recruiter
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] RecruiterDto RecruiterDto)
+        public async Task<IActionResult> Create([FromBody] Recruiter recruiter)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+                return BadRequest(ModelState);
             }
 
             var newRecruiter = new Recruiter
             {
-                Recruiter_Name = RecruiterDto.Recruiter_Name,
-                Phone_Number = RecruiterDto.Phone_Number,
-                Email_Address = RecruiterDto.Email_Address,
+                Recruiter_Name = recruiter.Recruiter_Name,
+                Phone_Number = recruiter.Phone_Number,
+                Email_Address = recruiter.Email_Address,
+                ID_Company = recruiter.ID_Company,
+                ID_User = recruiter.ID_User,
+                Front_Image = recruiter.Front_Image,
+                Back_Image = recruiter.Back_Image
             };
 
-            _context.Recruiter.Add(newRecruiter); 
+            _context.Recruiter.Add(newRecruiter);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetByID), new { ID = newRecruiter.ID }, RecruiterMapper.ToDto(newRecruiter)); // Trả về 201 Created
+
+            return CreatedAtAction(nameof(GetByID), new { ID = newRecruiter.ID }, newRecruiter); // Trả về 201 Created với đối tượng vừa tạo
         }
 
         // Cập nhật Recruiter
         [HttpPut("{ID}")]
-        public async Task<IActionResult> Edit(int ID, [FromBody] RecruiterDto RecruiterDto)
+        public async Task<IActionResult> Edit(int ID, [FromBody] Recruiter recruiter)
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // 400 nếu dữ liệu không hợp lệ
+                return BadRequest(ModelState);
             }
 
-            var recruiter = await _context.Recruiter.FindAsync(ID); // Thay đổi từ _context.Recruiter thành _context.Recruiter
-            if (recruiter == null)
+            var existingRecruiter = await _context.Recruiter.FindAsync(ID);
+            if (existingRecruiter == null)
             {
-                return NotFound(); // 404 nếu không tìm thấy
+                return NotFound();
             }
 
-            // Cập nhật thông tin
-            recruiter.Recruiter_Name = RecruiterDto.Recruiter_Name;
-            recruiter.Phone_Number = RecruiterDto.Phone_Number;
-            recruiter.Email_Address = RecruiterDto.Email_Address;
+            // Cập nhật các thông tin
+            existingRecruiter.Recruiter_Name = recruiter.Recruiter_Name;
+            existingRecruiter.Phone_Number = recruiter.Phone_Number;
+            existingRecruiter.Email_Address = recruiter.Email_Address;
+            existingRecruiter.ID_Company = recruiter.ID_Company;
+            existingRecruiter.ID_User = recruiter.ID_User;
+            existingRecruiter.Front_Image = recruiter.Front_Image;
+            existingRecruiter.Back_Image = recruiter.Back_Image;
 
-            _context.Recruiter.Update(recruiter); // Thay đổi từ _context.Recruiter.Update thành _context.Recruiter.Update
+            _context.Recruiter.Update(existingRecruiter);
             await _context.SaveChangesAsync();
 
-            return NoContent(); // Trả về 204 No Content sau khi cập nhật thành công
+            return NoContent();
         }
 
         // Xóa Recruiter theo ID
@@ -116,15 +119,16 @@ namespace API_Mobile.Controllers
         {
             try
             {
-                var recruiter = await _context.Recruiter.FindAsync(ID); // Thay đổi từ _context.Recruiter thành _context.Recruiter
+                var recruiter = await _context.Recruiter.FindAsync(ID);
                 if (recruiter == null)
                 {
-                    return NotFound(); // 404 nếu không tìm thấy
+                    return NotFound();
                 }
 
-                _context.Recruiter.Remove(recruiter); // Thay đổi từ _context.Recruiter.Remove thành _context.Recruiter.Remove
+                _context.Recruiter.Remove(recruiter);
                 await _context.SaveChangesAsync();
-                return NoContent(); // 204 No Content
+
+                return NoContent();
             }
             catch
             {
