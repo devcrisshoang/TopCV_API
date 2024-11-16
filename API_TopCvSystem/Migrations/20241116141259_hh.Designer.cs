@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241116141259_hh")]
+    partial class hh
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -380,9 +383,6 @@ namespace API_TopCvSystem.Migrations
 
                     b.Property<int>("ID_User")
                         .HasColumnType("int");
-
-                    b.Property<bool>("Is_Confirm")
-                        .HasColumnType("bit");
 
                     b.Property<bool>("Is_Registered")
                         .HasColumnType("bit");

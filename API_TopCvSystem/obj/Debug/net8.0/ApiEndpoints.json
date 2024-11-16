@@ -1380,8 +1380,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "RecruiterDto",
-        "Type": "API_TopCvSystem.DTO.RecruiterDto",
+        "Name": "recruiter",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Recruiter",
         "IsRequired": true
       }
     ],
@@ -1417,8 +1417,8 @@
         "IsRequired": true
       },
       {
-        "Name": "RecruiterDto",
-        "Type": "API_TopCvSystem.DTO.RecruiterDto",
+        "Name": "recruiter",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Recruiter",
         "IsRequired": true
       }
     ],
@@ -1434,6 +1434,22 @@
     "Parameters": [
       {
         "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/Recruiter/ByUser/{ID_User}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID_User",
         "Type": "System.Int32",
         "IsRequired": true
       }

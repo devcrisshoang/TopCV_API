@@ -57,6 +57,27 @@ namespace API_Mobile.Controllers
             }
         }
 
+        // Lấy Recruiter theo ID_User
+        [HttpGet("ByUser/{ID_User}")]
+        public async Task<IActionResult> GetByUserId(int ID_User)
+        {
+            try
+            {
+                var recruiter = await _context.Recruiter.FirstOrDefaultAsync(r => r.ID_User == ID_User);
+                if (recruiter == null)
+                {
+                    return NotFound($"No recruiter found with User ID: {ID_User}");
+                }
+
+                return Ok(recruiter); // Trả về đối tượng Recruiter tương ứng với ID_User
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
         // Tạo mới Recruiter
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Recruiter recruiter)

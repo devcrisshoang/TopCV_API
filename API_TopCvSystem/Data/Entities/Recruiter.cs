@@ -15,5 +15,7 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public int ID_User { get; set; } = 0;
         public string Front_Image { get; set; } = "";
         public string Back_Image { get; set; } = "";
+        public Boolean Is_Registered { get; set; } = false;
+        public Boolean Is_Confirm { get; set; } = false;
     }
 }
