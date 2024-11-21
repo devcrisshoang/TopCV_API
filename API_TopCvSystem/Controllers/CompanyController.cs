@@ -149,6 +149,34 @@ namespace API_Mobile.Controllers
             }
         }
 
+        [HttpPut("green-badge/{id}")]
+        public async Task<IActionResult> ToggleGreenBadge(int id)
+        {
+            try
+            {
+                // Tìm công ty theo ID
+                var company = await _context.Company.FindAsync(id);
+                if (company == null)
+                {
+                    return NotFound($"Company with ID {id} not found.");
+                }
+
+                // Đảo ngược trạng thái Green_Badge
+                company.Green_Badge = !company.Green_Badge;
+
+                // Cập nhật lại thông tin công ty
+                _context.Company.Update(company);
+                await _context.SaveChangesAsync();
+
+                // Trả về trạng thái mới của Green_Badge
+                return Ok(new { Green_Badge = company.Green_Badge });
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ và trả về lỗi 500 nếu có lỗi
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
 
 
         // Cập nhật Company

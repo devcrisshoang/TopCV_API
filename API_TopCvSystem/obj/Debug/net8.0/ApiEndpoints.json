@@ -1,5 +1,41 @@
 [
   {
+    "ContainingType": "API_TopCvSystem.Controllers.AdminController",
+    "Method": "GetAdminInfo",
+    "RelativePath": "api/Admin/info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "API_TopCvSystem.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_TopCvSystem.Controllers.AdminController",
+    "Method": "Logout",
+    "RelativePath": "api/Admin/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_Mobile.Controllers.ApplicantController",
     "Method": "GetAll",
     "RelativePath": "api/Applicant",
@@ -465,6 +501,22 @@
   },
   {
     "ContainingType": "API_Mobile.Controllers.CompanyController",
+    "Method": "ToggleGreenBadge",
+    "RelativePath": "api/Company/green-badge/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.CompanyController",
     "Method": "GetCompanyByRecruiterId",
     "RelativePath": "api/Company/recruiter/{recruiterId}",
     "HttpMethod": "GET",
@@ -523,18 +575,13 @@
   {
     "ContainingType": "TopCVSystemAPIdotnet.Controllers.CompanyInformationDetailsController",
     "Method": "PostCompanyInformationDetails",
-    "RelativePath": "api/CompanyInformationDetails/{companyId}",
+    "RelativePath": "api/CompanyInformationDetails",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "companyId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "companyInformationDetails",
+        "Name": "companyInformation",
         "Type": "TopCVSystemAPIdotnet.Data.Entities.CompanyInformationDetails",
         "IsRequired": true
       }
@@ -1442,8 +1489,203 @@
   },
   {
     "ContainingType": "API_Mobile.Controllers.RecruiterController",
-    "Method": "GetByUserId",
-    "RelativePath": "api/Recruiter/ByUser/{ID_User}",
+    "Method": "GetSuggestedApplicants",
+    "RelativePath": "api/Recruiter/{ID}/SuggestedApplicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetAcceptedApplicants",
+    "RelativePath": "api/Recruiter/{recruiterId}/AcceptedApplicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetApplicantCvForRecruiter",
+    "RelativePath": "api/Recruiter/{recruiterId}/applicant/{applicantId}/cv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "applicantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "UpdateAcceptanceStatus",
+    "RelativePath": "api/Recruiter/{recruiterId}/applicants/{applicantId}/acceptance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "applicantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isAccepted",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetApplicantsForJobs",
+    "RelativePath": "api/Recruiter/{recruiterId}/ApplicantsForJobToList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetRejectedApplicants",
+    "RelativePath": "api/Recruiter/{recruiterId}/RejectedApplicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetImages",
+    "RelativePath": "api/Recruiter/images/{recruiterID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetApplicantsForSpecificJob",
+    "RelativePath": "api/Recruiter/recruiter/{recruiterId}/job/{jobId}/applicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jobId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Recruiter/UpdateStatus/{ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "recruiterData",
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.Recruiter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Recruiter/UploadImage/{ID}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Mobile.Controllers.RecruiterController",
+    "Method": "GetByUserID",
+    "RelativePath": "api/Recruiter/user/{ID_User}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

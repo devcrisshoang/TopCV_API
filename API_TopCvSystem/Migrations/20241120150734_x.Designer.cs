@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241120150734_x")]
+    partial class x
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,27 +24,6 @@ namespace API_TopCvSystem.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("API_TopCvSystem.Data.Entities.Admin", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Admin");
-                });
 
             modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.Applicant", b =>
                 {
@@ -94,7 +76,7 @@ namespace API_TopCvSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("ID_Applicant")
+                    b.Property<int>("ID_Appicant")
                         .HasColumnType("int");
 
                     b.Property<int>("ID_Job")
@@ -134,9 +116,8 @@ namespace API_TopCvSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Create_Time")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Create_Time")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("ID_Recruiter")
                         .HasColumnType("int");
@@ -210,30 +191,6 @@ namespace API_TopCvSystem.Migrations
                     b.HasKey("ID_Company_Information_Details");
 
                     b.ToTable("CompanyInformationDetail");
-                });
-
-            modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.Image", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<string>("ImageName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UploadedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.Job", b =>

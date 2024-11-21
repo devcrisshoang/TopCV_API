@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241120173412_l")]
+    partial class l
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -94,7 +97,7 @@ namespace API_TopCvSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("ID_Applicant")
+                    b.Property<int>("ID_Appicant")
                         .HasColumnType("int");
 
                     b.Property<int>("ID_Job")
@@ -210,30 +213,6 @@ namespace API_TopCvSystem.Migrations
                     b.HasKey("ID_Company_Information_Details");
 
                     b.ToTable("CompanyInformationDetail");
-                });
-
-            modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.Image", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<string>("ImageName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UploadedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("TopCVSystemAPIdotnet.Data.Entities.Job", b =>

@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using API_TopCvSystem.Data.Entities;
+using API_TopCvSystem.Migrations;
+using Microsoft.EntityFrameworkCore;
 using TopCVSystemAPIdotnet.Controllers;
 using TopCVSystemAPIdotnet.Data.Entities;
 
@@ -20,6 +22,8 @@ namespace TopCVSystemAPIdotnet.Data
         public DbSet<Recruiter> Recruiter { get; set; }
         public DbSet<ApplicantJob> ApplicantJob { get; set; }
         public DbSet<MessageNotification> MessageNotification { get; set; }
+        public DbSet<Admin> Admin { get; set; }
+        public DbSet<Image> Images { get; set; }
 
     }
 }

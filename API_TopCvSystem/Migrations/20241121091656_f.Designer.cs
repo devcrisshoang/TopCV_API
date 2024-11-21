@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TopCVSystemAPIdotnet.Data;
 
@@ -11,9 +12,11 @@ using TopCVSystemAPIdotnet.Data;
 namespace API_TopCvSystem.Migrations
 {
     [DbContext(typeof(TopCvDbContext))]
-    partial class TopCvDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241121091656_f")]
+    partial class f
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -94,7 +97,7 @@ namespace API_TopCvSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("ID_Applicant")
+                    b.Property<int>("ID_Appicant")
                         .HasColumnType("int");
 
                     b.Property<int>("ID_Job")

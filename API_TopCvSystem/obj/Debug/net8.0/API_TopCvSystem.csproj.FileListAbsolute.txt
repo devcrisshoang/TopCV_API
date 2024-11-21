@@ -690,3 +690,4 @@ E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.pdb
 E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.genruntimeconfig.cache
 E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\ref\API_TopCvSystem.dll
 E:\Project 1\TopCV_API\API_TopCvSystem\obj\Debug\net8.0\API_TopCvSystem.sourcelink.json
+E:\Project 1\TopCV_API\API_TopCvSystem\bin\Debug\net8.0\API_TopCvSystem.staticwebassets.runtime.json

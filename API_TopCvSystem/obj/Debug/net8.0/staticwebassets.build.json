@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "6DoZWVIGfDsze6lK+VUUAUkBOjkIxq84z/20IB5+lt4=",
+  "Hash": "Ql3m/Vz0KpK20/EhoL5wC1kEAL1gk55azrYWmcPPZe0=",
   "Source": "API_TopCvSystem",
   "BasePath": "_content/API_TopCvSystem",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API_TopCvSystem\\wwwroot",
+      "Source": "API_TopCvSystem",
+      "ContentRoot": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\wwwroot\\",
+      "BasePath": "_content/API_TopCvSystem",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

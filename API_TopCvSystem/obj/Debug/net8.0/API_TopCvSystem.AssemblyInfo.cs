@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_TopCvSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dff49a49b7ba1fafc33a04ac1b9b8c7be15496de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac9b66400cefcdf7eb2e79efe6fc19b1121e5073")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_TopCvSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_TopCvSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

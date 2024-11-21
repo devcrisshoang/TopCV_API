@@ -76,48 +76,41 @@ namespace TopCVSystemAPIdotnet.Controllers
             }
         }
 
-
         // POST: api/CompanyInformationDetails
-        [HttpPost("{companyId}")]
-        public async Task<ActionResult<CompanyInformationDetails>> PostCompanyInformationDetails(int companyId, CompanyInformationDetails companyInformationDetails)
+        [HttpPost]
+        public async Task<ActionResult<CompanyInformationDetails>> PostCompanyInformationDetails([FromBody] CompanyInformationDetails companyInformation)
         {
+            // Kiểm tra nếu dữ liệu gửi lên không hợp lệ
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Trả về lỗi 400
+            }
+
+            // Thêm đối tượng mới vào DbSet
+            _context.CompanyInformationDetail.Add(companyInformation);
+
             try
             {
-                // Check if the Company with the specified ID exists in the Company table
-                var existingCompany = await _context.Company.FindAsync(companyId);
-
-                if (existingCompany == null)
-                {
-                    // If the Company does not exist, return a BadRequest response
-                    return BadRequest($"Company with ID {companyId} does not exist.");
-                }
-
-                // Check if a CompanyInformationDetails with the same ID_Company already exists
-                var existingCompanyInformation = await _context.CompanyInformationDetail
-                    .FirstOrDefaultAsync(c => c.ID_Company == companyId);
-
-                if (existingCompanyInformation != null)
-                {
-                    // If the ID_Company already exists in CompanyInformationDetails, return a BadRequest response
-                    return BadRequest($"Company information for Company ID {companyId} already exists.");
-                }
-
-                // Assign the companyId to the new CompanyInformationDetails object
-                companyInformationDetails.ID_Company = companyId;
-
-                // Add the new CompanyInformationDetails entry
-                _context.CompanyInformationDetail.Add(companyInformationDetails);
+                // Lưu thay đổi vào cơ sở dữ liệu
                 await _context.SaveChangesAsync();
-
-                // Return the created response with the new company information details
-                return CreatedAtAction(nameof(GetCompanyInformationDetails), new { id = companyInformationDetails.ID_Company_Information_Details }, companyInformationDetails);
             }
-            catch (Exception ex)
+            catch (DbUpdateException ex)
             {
-                // Catch any exceptions and return a 500 Internal Server Error response with the exception message
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                // Kiểm tra nếu trùng lặp khóa chính hoặc lỗi dữ liệu
+                if (CompanyInformationDetailsExists(companyInformation.ID_Company_Information_Details))
+                {
+                    return Conflict("A record with the same ID already exists."); // Trả về lỗi 409
+                }
+                else
+                {
+                    return StatusCode(500, $"Internal server error: {ex.Message}"); // Lỗi 500 nếu gặp lỗi khác
+                }
             }
+
+            // Trả về đối tượng vừa được tạo với HTTP status 201 Created
+            return CreatedAtAction(nameof(GetCompanyInformationDetails), new { id = companyInformation.ID_Company_Information_Details }, companyInformation);
         }
+
 
 
         // Cập nhật Company

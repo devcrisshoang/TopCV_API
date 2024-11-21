@@ -10,7 +10,7 @@ namespace TopCVSystemAPIdotnet.Data.Entities
         public int ID { get; set; }
         public string Article_Name { get; set; } = "";
         public string Content { get; set; } = "";
-        public DateTime Create_Time { get; set; } = DateTime.Now;
+        public string Create_Time { get; set; } = "";
         public string image { get; set; } ="";
         public int ID_Recruiter { get; set; } = 0;
     }

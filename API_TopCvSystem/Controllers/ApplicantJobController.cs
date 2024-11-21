@@ -53,10 +53,10 @@ namespace TopCVSystemAPIdotnet.Controllers
                 }
 
                 // Check if the Applicant with the specified ID exists
-                var existingApplicant = await _context.Applicant.FindAsync(ApplicantJob.ID_Appicant);
+                var existingApplicant = await _context.Applicant.FindAsync(ApplicantJob.ID_Applicant);
                 if (existingApplicant == null)
                 {
-                    return BadRequest($"Applicant with ID {ApplicantJob.ID_Appicant} does not exist.");
+                    return BadRequest($"Applicant with ID {ApplicantJob.ID_Applicant} does not exist.");
                 }
 
                 // Add the new ApplicantJob entry
@@ -94,15 +94,15 @@ namespace TopCVSystemAPIdotnet.Controllers
             }
 
             // Check if the Applicant with the specified ID exists
-            var existingApplicant = await _context.Applicant.FindAsync(ApplicantJob.ID_Appicant);
+            var existingApplicant = await _context.Applicant.FindAsync(ApplicantJob.ID_Applicant);
             if (existingApplicant == null)
             {
-                return BadRequest($"Applicant with ID {ApplicantJob.ID_Appicant} does not exist.");
+                return BadRequest($"Applicant with ID {ApplicantJob.ID_Applicant} does not exist.");
             }
 
             // Update the ApplicantJob fields
             existingApplicantJob.ID_Job = ApplicantJob.ID_Job;
-            existingApplicantJob.ID_Appicant = ApplicantJob.ID_Appicant;
+            existingApplicantJob.ID_Applicant = ApplicantJob.ID_Applicant;
 
             _context.Entry(existingApplicantJob).State = EntityState.Modified;
 
