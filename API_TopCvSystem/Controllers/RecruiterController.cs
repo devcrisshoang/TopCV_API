@@ -32,7 +32,7 @@ namespace API_Mobile.Controllers
                     return NotFound("No recruiters found.");
                 }
 
-                return Ok(recruiters); // Trả về danh sách trực tiếp
+                return Ok(recruiters); 
             }
             catch (Exception ex)
             {

@@ -1898,6 +1898,58 @@
   },
   {
     "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "GetUserByApplicantUserId",
+    "RelativePath": "api/User/applicant/user/{id_user}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_user",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
+    "Method": "GetUserByRecruiterUserId",
+    "RelativePath": "api/User/recruiter/user/{id_user}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_user",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TopCVSystemAPIdotnet.Data.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TopCVSystemAPIdotnet.Controllers.UserController",
     "Method": "GetUsernames",
     "RelativePath": "api/User/usernames",
     "HttpMethod": "GET",

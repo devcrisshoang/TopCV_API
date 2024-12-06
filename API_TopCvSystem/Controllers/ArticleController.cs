@@ -116,6 +116,7 @@ namespace TopCVSystemAPIdotnet.Controllers
             existingArticle.Content = article.Content;
             existingArticle.Create_Time = article.Create_Time;
             existingArticle.ID_Recruiter = article.ID_Recruiter;
+            existingArticle.image = article.image;
 
             _context.Article.Update(existingArticle);
             await _context.SaveChangesAsync();

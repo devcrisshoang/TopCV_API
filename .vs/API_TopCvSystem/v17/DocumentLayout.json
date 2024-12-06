@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Project 1\\TopCV_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|e:\\project 1\\topcv_api\\api_topcvsystem\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|solutionrelative:api_topcvsystem\\controllers\\jobdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|e:\\project 1\\topcv_api\\api_topcvsystem\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|solutionrelative:api_topcvsystem\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|e:\\project 1\\topcv_api\\api_topcvsystem\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|solutionrelative:api_topcvsystem\\controllers\\recruitercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|e:\\project 1\\topcv_api\\api_topcvsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B10E3-7C0F-4903-AEAD-2A595EA83E16}|API_TopCvSystem\\API_TopCvSystem.csproj|solutionrelative:api_topcvsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobDetailsController.cs",
+              "DocumentMoniker": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\JobDetailsController.cs",
+              "RelativeDocumentMoniker": "API_TopCvSystem\\Controllers\\JobDetailsController.cs",
+              "ToolTip": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\JobDetailsController.cs",
+              "RelativeToolTip": "API_TopCvSystem\\Controllers\\JobDetailsController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:16:24.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicantController.cs",
+              "DocumentMoniker": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\ApplicantController.cs",
+              "RelativeDocumentMoniker": "API_TopCvSystem\\Controllers\\ApplicantController.cs",
+              "ToolTip": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\ApplicantController.cs",
+              "RelativeToolTip": "API_TopCvSystem\\Controllers\\ApplicantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:48:07.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecruiterController.cs",
+              "DocumentMoniker": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\RecruiterController.cs",
+              "RelativeDocumentMoniker": "API_TopCvSystem\\Controllers\\RecruiterController.cs",
+              "ToolTip": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\RecruiterController.cs",
+              "RelativeToolTip": "API_TopCvSystem\\Controllers\\RecruiterController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:26:11.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API_TopCvSystem\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Project 1\\TopCV_API\\API_TopCvSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API_TopCvSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:23:25.473Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -90,6 +90,7 @@ namespace TopCVSystemAPIdotnet.Controllers
             existingJobDetails.Working_Time = jobDetails.Working_Time;
             existingJobDetails.Working_Method = jobDetails.Working_Method;
             existingJobDetails.Working_Position = jobDetails.Working_Position;
+            existingJobDetails.Number_Of_People = jobDetails.Number_Of_People;
            
 
             _context.JobDetail.Update(existingJobDetails);

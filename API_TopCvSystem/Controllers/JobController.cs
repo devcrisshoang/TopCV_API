@@ -81,6 +81,7 @@ namespace API_TopCvSystem.Controllers
             work.Working_Experience_Require = job.Working_Experience_Require;
             work.Working_Address = job.Working_Address;
             work.ID_Recruiter = job.ID_Recruiter;
+            work.Image_Id = job.Image_Id;
 
             _context.Job.Update(work);
             await _context.SaveChangesAsync();

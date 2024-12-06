@@ -67,6 +67,52 @@ namespace TopCVSystemAPIdotnet.Controllers
             return Ok(usernames);
         }
 
+        [HttpGet("applicant/user/{id_user}")]
+        public async Task<ActionResult<User>> GetUserByApplicantUserId(int id_user)
+        {
+            // Tìm Applicant có ID_User tương ứng
+            var applicant = await _context.Applicant
+                                           .FirstOrDefaultAsync(a => a.ID_User == id_user);
+
+            if (applicant == null)
+            {
+                return NotFound("Applicant not found for the given User ID."); // 404 nếu không tìm thấy
+            }
+
+            // Tìm User dựa trên ID_User của Applicant
+            var user = await _context.User.FindAsync(applicant.ID_User);
+
+            if (user == null)
+            {
+                return NotFound("User not found for the given User ID."); // 404 nếu không tìm thấy
+            }
+
+            return Ok(user); // Trả về thông tin User
+        }
+
+        [HttpGet("recruiter/user/{id_user}")]
+        public async Task<ActionResult<User>> GetUserByRecruiterUserId(int id_user)
+        {
+            // Tìm Applicant có ID_User tương ứng
+            var recruiter = await _context.Recruiter
+                                           .FirstOrDefaultAsync(a => a.ID_User == id_user);
+
+            if (recruiter == null)
+            {
+                return NotFound("Recruiter not found for the given User ID."); // 404 nếu không tìm thấy
+            }
+
+            // Tìm User dựa trên ID_User của Applicant
+            var user = await _context.User.FindAsync(recruiter.ID_User);
+
+            if (user == null)
+            {
+                return NotFound("User not found for the given User ID."); // 404 nếu không tìm thấy
+            }
+
+            return Ok(user); // Trả về thông tin User
+        }
+
         private bool UserExists(int id)
         {
             return _context.User.Any(e => e.ID == id);
